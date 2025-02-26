@@ -89,7 +89,7 @@
             {
                 name: "Team Hub",
                 children: [
-                    { name: "Management", value: 1, tooltip: "Manage your product backlog, roadmap, meetings, and docs in one space." },
+                    { name: "Management", value: 1, tooltip: "Manage your product backlog, roadmap, meetings, and docs." },
                     { name: "Design", value: 1, tooltip: "Manage your design activities, objectives, assets, and docs." },
                     { name: "Engineering", value: 1, tooltip: "Manage your engineering activities, objectives, assets, and docs." },
                     { name: "Sales", value: 1, tooltip: "Manage your sales activities, objectives, metrics, and docs." },
@@ -135,7 +135,7 @@
     let radius = width / 5;
 
     const updatedColors = [
-        "#9B9B9B", "#A27763", "#CB7B37", "#C19138", "#4F9768", 
+        "#9B9B9B", "#CB7B37", "#C19138", "#4F9768", 
         "#447ACB", "#865DBB", "#BA4A78", "#BE524B"
     ];
 
@@ -310,7 +310,7 @@
     const centerLabel = g.append('text')
         .attr('text-anchor', 'middle')
         .attr('dy', '0.35em')
-        .attr('font-size', '24px')
+        .attr('font-size', '26px')
         .attr('pointer-events', 'none')
         .attr('class', 'slice-label')
         .text(data.name)
